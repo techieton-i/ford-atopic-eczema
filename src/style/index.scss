@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./variables";
+@import "../layouts/Navbar/navbar";
+@import "../modules/auth/auth";
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f4fc;
+
+  & > div {
+    width: 40rem;
+    padding: 2rem;
+    background-color: #fff;
+  }
+}
